@@ -17,5 +17,5 @@ runs:
       with:
         pixi-version: v0.44.0
         # building cache is slower than not caching
-        # cache: true
+        cache: false
 
