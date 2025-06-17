@@ -52,5 +52,7 @@ sphinx:
     html_last_updated_fmt: "%b %d, %Y"
     suppress_warnings: ["mystnb.unknown_mime_type"]
 
-exclude_patterns: [README.md]
+exclude_patterns:
+  - README.md
+  - .pixi/*
 only_build_toc_files: true
