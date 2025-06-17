@@ -16,5 +16,6 @@ runs:
       uses: prefix-dev/setup-pixi@v0.8.10
       with:
         pixi-version: v0.44.0
-        cache: true
+        # building cache is slower than not caching
+        # cache: true
 
